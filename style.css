@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*font-family: 'Outfit', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Outfit:wght@400;700&family=Roboto:wght@700&family=Ubuntu&display=swap');
+
+body{
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.parent{
+    background-color: hsl(0, 0%, 100%);
+    height: 350px;
+    width: 250px;
+    border-radius: 5%;
+}
+
+img{
+    border-radius: 5%;
+    margin: 15px 25px 5px;
+   height: 200px;
+   width: 200px;
+}
+.bottom{
+    text-align: center;
+}
+.caption{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: hsl(218, 44%, 22%);
+    padding-bottom: 10px;
+}
+div p{
+    color: hsl(220, 15%, 55%);
+    padding: 0 25px;
+    font-size: 15px;
+}
